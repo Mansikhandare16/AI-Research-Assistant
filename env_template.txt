@@ -1,5 +1,5 @@
-GROQ_API_KEY=your-groq-api-key-here
-SERPER_API_KEY=your-serper-api-key-here
+GROQ_API_KEY=api key
+SERPER_API_KEY=api key
 RESEARCH_AGENT_LLM=groq/llama-3.3-70b-versatile
 ANALYST_AGENT_LLM=groq/llama-3.3-70b-versatile
 WRITER_AGENT_LLM=groq/llama-3.3-70b-versatile
