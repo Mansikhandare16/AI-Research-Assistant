@@ -8,12 +8,8 @@ model = os.getenv("WRITER_AGENT_LLM")
 temperature = float(os.getenv("WRITER_AGENT_TEMPERATURE"))
 
 llm = LLM(
-    llm = LLM(
-    model="llama-3.3-70b-versatile",
-    provider="groq",
-    api_key=os.getenv("GROQ_API_KEY"),
+    model=model,
     temperature=temperature
-    )
 )
 
 content_writer_agent = Agent(
