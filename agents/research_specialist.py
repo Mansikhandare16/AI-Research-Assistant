@@ -7,8 +7,12 @@ model = os.getenv("RESEARCH_AGENT_LLM")
 temperature = float(os.getenv("RESEARCH_AGENT_TEMPERATURE"))
 
 llm = LLM(
-    model=model,
+    llm = LLM(
+    model="llama-3.3-70b-versatile",
+    provider="groq",
+    api_key=os.getenv("GROQ_API_KEY"),
     temperature=temperature
+)
 )
 
 research_specialist_agent = Agent(
