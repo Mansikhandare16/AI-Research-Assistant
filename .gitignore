@@ -1,4 +1,11 @@
-.env
+.venv/
 venv/
-_pycache_/
+
+.env
+
+__pycache__/
 *.pyc
+
+research_findings.md
+analysis_report.md
+Reports/
