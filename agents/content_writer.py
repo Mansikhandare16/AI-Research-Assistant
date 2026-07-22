@@ -9,7 +9,8 @@ temperature = float(os.getenv("WRITER_AGENT_TEMPERATURE"))
 
 llm = LLM(
     model=model,
-    temperature=temperature
+    temperature=temperature,
+    max_tokens=500
 )
 
 content_writer_agent = Agent(
